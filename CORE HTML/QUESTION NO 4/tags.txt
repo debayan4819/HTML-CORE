@@ -1,0 +1,22 @@
+Sure, here is an ordered list of some HTML tags:
+
+1. <!DOCTYPE>: This declaration helps web browsers to display web pages correctly. It must only appear once, at the top of the page (before any HTML tags).
+
+2. <html>: The HTML document itself begins with <html>and ends with </html>.
+
+3. <head>: The head element contains meta-information about the HTML document, including its title.
+
+4. <title>: The title element specifies the title of the HTML document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+
+5. <body>: The <body>tag defines the document's body. This is where the content of the HTML document, such as text, images, and so on, are placed.
+
+6. <h1>to<h6>: These tags are used to define HTML headings, <h1> defines the most important heading, while <h6> defines the least important heading.
+
+7. <p>: This tag represents a paragraph.
+
+8.<a>: The Anchor tag defines a hyperlink, which is used to link from one page to another.
+
+9. <img>: The img element is used to embed images in an HTML page.
+
+10.<div>: This tag is a container unit that encapsulates other page elements and divides the HTML document into sections. Web developers use <div> elements to group together HTML elements and apply CSS styles to many elements at once.
+

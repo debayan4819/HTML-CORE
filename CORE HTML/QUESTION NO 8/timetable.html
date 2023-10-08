@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    table,th,td{
+        border:1px solid black
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conference Schedule</h1>
+    <table style="width:100%">
+        <tr>
+            <th>TIME</th>
+            <th>ROOM 1</th>
+            <th>ROOM 2</th>
+            <th>ROOM 3</th>
+            <th>ROOM 4</th>
+        </tr>
+        <tr>
+            <td rowspan="3">9:00 AM- 10:00 AM</td>
+            <td rowspan="2">keynote</td>
+            <td>Session A</td>
+            <td>Session B</td>
+            <td ROWSPAN="3">Session c</td>
+        </tr>
+        <tr>
+            <td>Session D</td>
+            <td>Session E</td>
+        </tr>
+        <tr>
+            <td>10:30 AM-11:30 AM</td>
+            <td colspan="2">Session F</td>
+        </tr>
+        <tr>
+            <td>12:00 AM-1:00 PM</td>
+            <td colspan="4"> Lunch Break</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> 1:00 AM-2:00  PM</td>
+            <td>Session G</td>
+            <td rowspan="2">Session H</td>
+            <td>Session I</td>
+            <td>Session J</td>
+        </tr>
+        <tr>
+            <TD>Session K</TD>
+            <TD>Session L</TD>
+            <TD>Session M</TD>
+        </tr>
+    </table>
+</body>
+</html>
